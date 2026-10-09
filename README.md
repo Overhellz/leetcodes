@@ -65,27 +65,27 @@ https://leetcode.com/studyplan/leetcode-75/
 
 | Level  | Name                                                              | Link                                                                                       | Retention |
 |:------:|:------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|:----------|
-|  Easy  | 1431. Kids With the Greatest Number of Candies                    | https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/                    |               |
-|  Easy  | 1464. Maximum Product of Two Elements in an Array                 | https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/                 |               |
-|  Easy  | 605. Can Place Flowers                                            | https://leetcode.com/problems/can-place-flowers/                                           | 3   /     |
-|  Easy  | 169. Majority Element                                             | https://leetcode.com/problems/majority-element/                                            |               |
-|  Easy  | 1768. Merge Strings Alternately                                   | https://leetcode.com/problems/merge-strings-alternately/                                   |               |
-|  Easy  | 1071. Greatest Common Divisor of Strings                          | https://leetcode.com/problems/greatest-common-divisor-of-strings/                          |               |
-|  Easy  | 345. Reverse Vowels of a String                                   | https://leetcode.com/problems/reverse-vowels-of-a-string/                                  |               |
+|  Easy  | 1431. Kids With the Greatest Number of Candies                    | https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/                    | 5         |
+|  Easy  | 1464. Maximum Product of Two Elements in an Array                 | https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/                 | 4         |
+|  Easy  | 605. Can Place Flowers                                            | https://leetcode.com/problems/can-place-flowers/                                           | 3         |
+|  Easy  | 169. Majority Element                                             | https://leetcode.com/problems/majority-element/                                            | 5         |
+|  Easy  | 1768. Merge Strings Alternately                                   | https://leetcode.com/problems/merge-strings-alternately/                                   |           |
+|  Easy  | 1071. Greatest Common Divisor of Strings                          | https://leetcode.com/problems/greatest-common-divisor-of-strings/                          |           |
+|  Easy  | 345. Reverse Vowels of a String                                   | https://leetcode.com/problems/reverse-vowels-of-a-string/                                  |           |
 | Medium | 334. Increasing Triplet Subsequence                               | https://leetcode.com/problems/increasing-triplet-subsequence/                              |           |
 | Medium | 443. String Compression                                           | https://leetcode.com/problems/string-compression/                                          |           |
-|  Easy  | 228. Summary Ranges                                               | https://leetcode.com/problems/summary-ranges/                                              |               |
-|  Easy  | 3105. Longest Strictly Increasing or Strictly Decreasing Subarray | https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/ |               |
-|  Easy  | 674. Longest Continuous Increasing Subsequence                    | https://leetcode.com/problems/longest-continuous-increasing-subsequence/                   |               |
-|  Easy  | 896. Monotonic Array                                              | https://leetcode.com/problems/monotonic-array/                                             |               |
-|  Easy  | 1572. Matrix Diagonal Sum                                         | https://leetcode.com/problems/matrix-diagonal-sum/                                         |               |
+|  Easy  | 228. Summary Ranges                                               | https://leetcode.com/problems/summary-ranges/                                              |           |
+|  Easy  | 3105. Longest Strictly Increasing or Strictly Decreasing Subarray | https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/ |           |
+|  Easy  | 674. Longest Continuous Increasing Subsequence                    | https://leetcode.com/problems/longest-continuous-increasing-subsequence/                   |           |
+|  Easy  | 896. Monotonic Array                                              | https://leetcode.com/problems/monotonic-array/                                             |           |
+|  Easy  | 1572. Matrix Diagonal Sum                                         | https://leetcode.com/problems/matrix-diagonal-sum/                                         |           |
 | Medium | 36. Valid Sudoku                                                  | https://leetcode.com/problems/valid-sudoku/                                                |           |
 | Medium | 54. Spiral Matrix                                                 | https://leetcode.com/problems/spiral-matrix/                                               |           |
-|  Easy  | 67. Add Binary                                                    | https://leetcode.com/problems/add-binary/                                                  |               |
+|  Easy  | 67. Add Binary                                                    | https://leetcode.com/problems/add-binary/                                                  |           |
 |  Hard  | 68. Text Justification                                            | https://leetcode.com/problems/text-justification/                                          |           |
 | Medium | 6. Zigzag Conversion                                              | https://leetcode.com/problems/zigzag-conversion/                                           |           |
-| Medium | 12. Integer to Roman                                              | https://leetcode.com/problems/integer-to-roman/                                            |               |
-|  Easy  | 13. Roman to Integer                                              | https://leetcode.com/problems/roman-to-integer/                                            |               |
+| Medium | 12. Integer to Roman                                              | https://leetcode.com/problems/integer-to-roman/                                            |           |
+|  Easy  | 13. Roman to Integer                                              | https://leetcode.com/problems/roman-to-integer/                                            |           |
 |  Easy  | 14. Longest Common Prefix                                         | https://leetcode.com/problems/longest-common-prefix/                                       |           |
 |  Easy  | 28. Find the Index of the First Occurrence in a String            | https://leetcode.com/problems/find-the-index-of-the-first-occurrence-in-a-string/          |           |
 | Medium | 31. Next Permutation                                              | https://leetcode.com/problems/next-permutation/                                            |           |
@@ -94,22 +94,17 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Easy  | 58. Length of Last Word                                           | https://leetcode.com/problems/length-of-last-word/                                         |           |
 | Medium | 73. Set Matrix Zeroes                                             | https://leetcode.com/problems/set-matrix-zeroes/                                           |           |
 | Medium | 75. Sort Colors                                                   | https://leetcode.com/problems/sort-colors/                                                 |           |
-| Medium | 80. Remove Duplicates from Sorted Array II                        | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/                      |               |
+| Medium | 80. Remove Duplicates from Sorted Array II                        | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/                      |           |
 | Medium | 122. Best Time to Buy and Sell Stock II                           | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/                          |           |
 |  Hard  | 135. Candy                                                        | https://leetcode.com/problems/candy/                                                       |           |
 | Medium | 151. Reverse Words in a String                                    | https://leetcode.com/problems/reverse-words-in-a-string/                                   | 1         |
-| Medium | 189. Rotate Array                                                 | https://leetcode.com/problems/rotate-array/                                                |               |
+| Medium | 189. Rotate Array                                                 | https://leetcode.com/problems/rotate-array/                                                |           |
 | Medium | 240. Search a 2D Matrix II                                        | https://leetcode.com/problems/search-a-2d-matrix-ii/                                       |           |
 | Medium | 274. H-Index                                                      | https://leetcode.com/problems/h-index/                                                     |           |
 | Medium | 287. Find the Duplicate Number                                    | https://leetcode.com/problems/find-the-duplicate-number/                                   |           |
 | Medium | 289. Game of Life                                                 | https://leetcode.com/problems/game-of-life/                                                |           |
 
 ★ – приём нужно знать заранее, из предыдущих задач его не вывести.
-
-БЛОК 1. Один проход по массиву
-Логика: один проход, держим лучшее значение.
-
-605. Can Place Flowers (Easy) – жадно сажать в первое свободное место (проверка соседей и границ).
 
 БЛОК 2. Монотонные участки, серии, подъёмы и спуски
 Логика: сравнение с соседом, текущая серия + лучшая.
@@ -201,22 +196,22 @@ https://leetcode.com/studyplan/leetcode-75/
 
 | Level  | Name                                           | Link                                                                    | Retention |
 |:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
+|  Easy  | 344. Reverse String                            | https://leetcode.com/problems/reverse-string/                           |           |
 |  Easy  | 283. Move Zeroes                               | https://leetcode.com/problems/move-zeroes/                              |           |
 | Medium | 1679. Max Number of K-Sum Pairs                | https://leetcode.com/problems/max-number-of-k-sum-pairs/                |           |
-|  Easy  | 344. Reverse String                            | https://leetcode.com/problems/reverse-string/                           |               |
-|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                |               |
+|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                |           |
 |  Easy  | 844. Backspace String Compare                  | https://leetcode.com/problems/backspace-string-compare/                 |           |
 | Medium | 18. 4Sum                                       | https://leetcode.com/problems/4sum/                                     |           |
 | Medium | 658. Find K Closest Elements                   | https://leetcode.com/problems/find-k-closest-elements/                  |           |
-|  Easy  | 125. Valid Palindrome                          | https://leetcode.com/problems/valid-palindrome/                         |               |
+|  Easy  | 125. Valid Palindrome                          | https://leetcode.com/problems/valid-palindrome/                         |           |
 |  Easy  | 680. Valid Palindrome II                       | https://leetcode.com/problems/valid-palindrome-ii/                      |           |
 | Medium | 5. Longest Palindromic Substring               | https://leetcode.com/problems/longest-palindromic-substring/            |           |
 |  Easy  | 88. Merge Sorted Array                         | https://leetcode.com/problems/merge-sorted-array/                       |           |
 |  Easy  | 392. Is Subsequence                            | https://leetcode.com/problems/is-subsequence/                           |           |
 |  Hard  | 42. Trapping Rain Water                        | https://leetcode.com/problems/trapping-rain-water/                      |           |
 | Medium | 11. Container With Most Water                  | https://leetcode.com/problems/container-with-most-water/                |           |
-|  Easy  | 27. Remove Element                             | https://leetcode.com/problems/remove-element/                           |               |
-|  Easy  | 26. Remove Duplicates from Sorted Array        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/      |               |
+|  Easy  | 27. Remove Element                             | https://leetcode.com/problems/remove-element/                           |           |
+|  Easy  | 26. Remove Duplicates from Sorted Array        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/      |           |
 | Medium | 1868. Product of Two Run-Length Encoded Arrays | https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/ |           |
 | Medium | 167. Two Sum II - Input Array Is Sorted        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/         |           |
 |  Easy  | 2570. Merge Two 2D Arrays by Summing Values    | https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/    |           |
@@ -359,14 +354,14 @@ https://leetcode.com/studyplan/leetcode-75/
 
 | Level  | Name                                                        | Link                                                                                   | Retention |
 |:------:|:------------------------------------------------------------|:---------------------------------------------------------------------------------------|:----------|
-|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           |               |
-|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  |               |
-| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |               |
-| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      |               |
-| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |               |
-| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |               |
-| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |               |
-| Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     |               |
+|  Easy  | 704. Binary Search                                          | https://leetcode.com/problems/binary-search/                                           |           |
+|  Easy  | 35. Search Insert Position                                  | https://leetcode.com/problems/search-insert-position/                                  |           |
+| Medium | 34. Find First and Last Position of Element in Sorted Array | https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/ |           |
+| Medium | 74. Search a 2D Matrix                                      | https://leetcode.com/problems/search-a-2d-matrix/                                      |           |
+| Medium | 153. Find Minimum in Rotated Sorted Array                   | https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/                    |           |
+| Medium | 33. Search in Rotated Sorted Array                          | https://leetcode.com/problems/search-in-rotated-sorted-array/                          |           |
+| Medium | 162. Find Peak Element                                      | https://leetcode.com/problems/find-peak-element/                                       |           |
+| Medium | 875. Koko Eating Bananas                                    | https://leetcode.com/problems/koko-eating-bananas/                                     |           |
 | Medium | 658. Find K Closest Elements                                | https://leetcode.com/problems/find-k-closest-elements/                                 |           |
 |  Hard  | 4. Median of Two Sorted Arrays                              | https://leetcode.com/problems/median-of-two-sorted-arrays/                             |           |
 | Medium | 300. Longest Increasing Subsequence                         | https://leetcode.com/problems/longest-increasing-subsequence/                          |           |
@@ -562,14 +557,14 @@ https://leetcode.com/studyplan/leetcode-75/
 |:------:|:------------------------------------------|:---------------------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
 | Medium | 46. Permutations                          | https://leetcode.com/problems/permutations/                          |   —    |   —    |   ✅   |  —   |   ✅    |           |
 | Medium | 77. Combinations                          | https://leetcode.com/problems/combinations/                          |   —    |   —    |   ✅   |  —   |   —    |           |
-| Medium | 78. Subsets                               | https://leetcode.com/problems/subsets/                               |   —    |   —    |   —   |  —   |   ✅    |               |
+| Medium | 78. Subsets                               | https://leetcode.com/problems/subsets/                               |   —    |   —    |   —   |  —   |   ✅    |           |
 | Medium | 22. Generate Parentheses                  | https://leetcode.com/problems/generate-parentheses/                  |   ✅    | 50.0%  |   ✅   |  —   |   ✅    |           |
 | Medium | 216. Combination Sum III                  | https://leetcode.com/problems/combination-sum-iii/                   |   —    |   —    |   —   |  ✅   |   —    |           |
 | Medium | 17. Letter Combinations of a Phone Number | https://leetcode.com/problems/letter-combinations-of-a-phone-number/ |   ✅    | 37.5%  |   ✅   |  ✅   |   ✅    |           |
 |  Hard  | 51. N-Queens                              | https://leetcode.com/problems/n-queens/                              |   —    |   —    |   —   |  —   |   ✅    |           |
 |  Hard  | 489. Robot room cleaner                   | https://leetcode.com/problems/robot-room-cleaner/                    |   —    |   —    |   —   |  —   |   —    |           |
-|  Easy  | 257. Binary Tree Paths                    | https://leetcode.com/problems/binary-tree-paths/                     |   —    |   —    |   —   |  —   |   —    |               |
-| Medium | 784. Letter Case Permutation              | https://leetcode.com/problems/letter-case-permutation/               |   —    |   —    |   —   |  —   |   —    |               |
+|  Easy  | 257. Binary Tree Paths                    | https://leetcode.com/problems/binary-tree-paths/                     |   —    |   —    |   —   |  —   |   —    |           |
+| Medium | 784. Letter Case Permutation              | https://leetcode.com/problems/letter-case-permutation/               |   —    |   —    |   —   |  —   |   —    |           |
 | Medium | 39. Combination Sum                       | https://leetcode.com/problems/combination-sum/                       |   —    |   —    |   ✅   |  —   |   ✅    |           |
 | Medium | 79. Word Search                           | https://leetcode.com/problems/word-search/                           |   —    |   —    |   ✅   |  —   |   ✅    |           |
 | Medium | 90. Subsets II                            | https://leetcode.com/problems/subsets-ii/                            |   —    |   —    |   —   |  —   |   —    |           |
