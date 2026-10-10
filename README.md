@@ -30,54 +30,25 @@ https://leetcode.com/studyplan/leetcode-75/
 
 ---
 
-### Порядок прохождения (линейно, без веток)
-
-1. **Array / String** — стартовая точка — работа с базовым контейнером без вспомогательных структур
-2. **Two Pointers** — первая техника поверх массива/строки
-3. **Sliding Window** — частный случай two pointers для подотрезков
-4. **Prefix Sum** — ещё одна техника над массивом, часто идёт в связке со sliding window
-5. **Hash Map** — первая вспомогательная структура данных — O(1) поиск
-6. **Stack, Queue** — линейные структуры LIFO/FIFO
-7. **Monotonic Stack** — прямое расширение техники Stack
-8. **Binary Search** — самостоятельная техника поиска, база для многих задач дальше (в т.ч. Dijkstra, DP)
-9. **Intervals** — сортировка + two pointers/greedy над отрезками
-10. **Linked List** — первая нелинейная по памяти структура
-11. **Binary Tree DFS** — рекурсия на деревьях — фундамент для BST/BFS/Trie/Backtracking/Graph DFS
-12. **Binary Search Tree (BST)** — дерево + инвариант сортировки
-13. **Binary Tree BFS** — обход дерева через очередь (после того как Stack/Queue уже пройдены)
-14. **Trie** — специализированное дерево над строками
-15. **Heap / Priority Queue** — нужна до графовых задач — используется в Dijkstra
-16. **Graph General** — деревья — частный случай графов, логично идти следом
-17. **Graph DFS** — перенос DFS с деревьев на графы
-18. **Graph BFS** — перенос BFS с деревьев на графы
-19. **Topological Sort** — надстройка над Graph DFS/BFS
-20. **Dijkstra** — graph BFS + heap, поэтому идёт последним в графовом блоке
-21. **Backtracking** — рекурсия/DFS, но уже с перебором и откатом состояния
-22. **Divide & Conquer** — ещё один рекурсивный паттерн, соседствует с backtracking
-23. **Dynamic Programming** — рекурсия + мемоизация — логичное продолжение backtracking/divide & conquer
-24. **Greedy** — часто разбирается в противовес DP на одних и тех же задачах (интервалы, расписания)
-25. **Bit Manipulation** — самостоятельная техника, невысокий приоритет
-26. **Design / OOP** — синтез уже пройденных структур (stack, hashmap, linked list, heap)
-27. **Math / Simulation** — низкоприоритетные точечные задачи
-28. **SQL** — отдельный навык, не про алгоритмы — логично закрывать после всей алгоритмической части
-
 # 1. Array / String
 
 | Level  | Name                                                              | Link                                                                                       | Retention |
 |:------:|:------------------------------------------------------------------|:-------------------------------------------------------------------------------------------|:----------|
 |  Easy  | 1431. Kids With the Greatest Number of Candies                    | https://leetcode.com/problems/kids-with-the-greatest-number-of-candies/                    | 5         |
 |  Easy  | 1464. Maximum Product of Two Elements in an Array                 | https://leetcode.com/problems/maximum-product-of-two-elements-in-an-array/                 | 4         |
-|  Easy  | 605. Can Place Flowers                                            | https://leetcode.com/problems/can-place-flowers/                                           | 3         |
+|  Easy  | 605. Can Place Flowers                                            | https://leetcode.com/problems/can-place-flowers/                                           | 3,5       |
 |  Easy  | 169. Majority Element                                             | https://leetcode.com/problems/majority-element/                                            | 5         |
+|  Easy  | 896. Monotonic Array                                              | https://leetcode.com/problems/monotonic-array/                                             | 5         |
+|  Easy  | 674. Longest Continuous Increasing Subsequence                    | https://leetcode.com/problems/longest-continuous-increasing-subsequence/                   | 5         |
+|  Easy  | 3105. Longest Strictly Increasing or Strictly Decreasing Subarray | https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/ | 5         |
+|  Easy  | 228. Summary Ranges                                               | https://leetcode.com/problems/summary-ranges/                                              | .         |
+| Medium | 122. Best Time to Buy and Sell Stock II                           | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/                          | 3         |
+| Medium | 334. Increasing Triplet Subsequence                               | https://leetcode.com/problems/increasing-triplet-subsequence/                              | 4         |
+|  Hard  | 135. Candy                                                        | https://leetcode.com/problems/candy/                                                       |           |
 |  Easy  | 1768. Merge Strings Alternately                                   | https://leetcode.com/problems/merge-strings-alternately/                                   |           |
 |  Easy  | 1071. Greatest Common Divisor of Strings                          | https://leetcode.com/problems/greatest-common-divisor-of-strings/                          |           |
 |  Easy  | 345. Reverse Vowels of a String                                   | https://leetcode.com/problems/reverse-vowels-of-a-string/                                  |           |
-| Medium | 334. Increasing Triplet Subsequence                               | https://leetcode.com/problems/increasing-triplet-subsequence/                              |           |
 | Medium | 443. String Compression                                           | https://leetcode.com/problems/string-compression/                                          |           |
-|  Easy  | 228. Summary Ranges                                               | https://leetcode.com/problems/summary-ranges/                                              |           |
-|  Easy  | 3105. Longest Strictly Increasing or Strictly Decreasing Subarray | https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/ |           |
-|  Easy  | 674. Longest Continuous Increasing Subsequence                    | https://leetcode.com/problems/longest-continuous-increasing-subsequence/                   |           |
-|  Easy  | 896. Monotonic Array                                              | https://leetcode.com/problems/monotonic-array/                                             |           |
 |  Easy  | 1572. Matrix Diagonal Sum                                         | https://leetcode.com/problems/matrix-diagonal-sum/                                         |           |
 | Medium | 36. Valid Sudoku                                                  | https://leetcode.com/problems/valid-sudoku/                                                |           |
 | Medium | 54. Spiral Matrix                                                 | https://leetcode.com/problems/spiral-matrix/                                               |           |
@@ -95,9 +66,7 @@ https://leetcode.com/studyplan/leetcode-75/
 | Medium | 73. Set Matrix Zeroes                                             | https://leetcode.com/problems/set-matrix-zeroes/                                           |           |
 | Medium | 75. Sort Colors                                                   | https://leetcode.com/problems/sort-colors/                                                 |           |
 | Medium | 80. Remove Duplicates from Sorted Array II                        | https://leetcode.com/problems/remove-duplicates-from-sorted-array-ii/                      |           |
-| Medium | 122. Best Time to Buy and Sell Stock II                           | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/                          |           |
-|  Hard  | 135. Candy                                                        | https://leetcode.com/problems/candy/                                                       |           |
-| Medium | 151. Reverse Words in a String                                    | https://leetcode.com/problems/reverse-words-in-a-string/                                   | 1         |
+| Medium | 151. Reverse Words in a String                                    | https://leetcode.com/problems/reverse-words-in-a-string/                                   |           |
 | Medium | 189. Rotate Array                                                 | https://leetcode.com/problems/rotate-array/                                                |           |
 | Medium | 240. Search a 2D Matrix II                                        | https://leetcode.com/problems/search-a-2d-matrix-ii/                                       |           |
 | Medium | 274. H-Index                                                      | https://leetcode.com/problems/h-index/                                                     |           |
@@ -109,17 +78,7 @@ https://leetcode.com/studyplan/leetcode-75/
 БЛОК 2. Монотонные участки, серии, подъёмы и спуски
 Логика: сравнение с соседом, текущая серия + лучшая.
 
-896. Monotonic Array (Easy) – два флага, сравнение только соседей.
-
-674. Longest Continuous Increasing Subsequence (Easy) – длина текущей серии и максимум.
-
-3105. Longest Strictly Increasing or Strictly Decreasing Subarray (Easy) – две серии одновременно (рост и спад).
-
 228. Summary Ranges (Easy) – запомнить начало серии, дойти до конца, записать отрезок.
-
-122. Best Time to Buy and Sell Stock II (Medium) – сумма всех подъёмов цены.
-
-334. Increasing Triplet Subsequence (Medium) ★ – first/second: два наименьших кандидата.
 
 135. Candy (Hard) – два прохода (слева и справа), во втором max.
 
@@ -196,10 +155,10 @@ https://leetcode.com/studyplan/leetcode-75/
 
 | Level  | Name                                           | Link                                                                    | Retention |
 |:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
-|  Easy  | 344. Reverse String                            | https://leetcode.com/problems/reverse-string/                           |           |
+|  Easy  | 344. Reverse String                            | https://leetcode.com/problems/reverse-string/                           | 5         |
+|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                |           |
 |  Easy  | 283. Move Zeroes                               | https://leetcode.com/problems/move-zeroes/                              |           |
 | Medium | 1679. Max Number of K-Sum Pairs                | https://leetcode.com/problems/max-number-of-k-sum-pairs/                |           |
-|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                |           |
 |  Easy  | 844. Backspace String Compare                  | https://leetcode.com/problems/backspace-string-compare/                 |           |
 | Medium | 18. 4Sum                                       | https://leetcode.com/problems/4sum/                                     |           |
 | Medium | 658. Find K Closest Elements                   | https://leetcode.com/problems/find-k-closest-elements/                  |           |
@@ -219,13 +178,12 @@ https://leetcode.com/studyplan/leetcode-75/
 
 БЛОК 1. Разворот и сборка с конца
 
-344. Reverse String (Easy)
 977. Squares of a Sorted Array (Easy) ★
 
 БЛОК 2. Чтение/запись (in-place)
 
 26. Remove Duplicates from Sorted Array (Easy)
-27. Remove Element (Easy)              ← добавить
+27. Remove Element (Easy)
 283. Move Zeroes (Easy)
 
 БЛОК 3. Две последовательности
@@ -238,7 +196,7 @@ https://leetcode.com/studyplan/leetcode-75/
 
 БЛОК 4. Палиндромы
 
-125. Valid Palindrome (Easy)           ← добавить (база!)
+125. Valid Palindrome (Easy)
 680. Valid Palindrome II (Easy)
 5. Longest Palindromic Substring (Medium) ★
 
@@ -324,31 +282,31 @@ https://leetcode.com/studyplan/leetcode-75/
 
 # 6. Stack, Queue
 
-| Level  | Name                                           | Link                                                                    | Yandex | Freq % | TP150 | LC75 | Top100 | Retention |
-|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
-|  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ |   —    |   —    |   —   |  —   |   —    |           |
-| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/             |   —    |   —    |   —   |  ✅   |   —    |           |
-|  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   |   ✅    | 50.0%  |   —   |  ✅   |   —    |           |
-|  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        |   ✅    | 62.5%  |   ✅   |  —   |   ✅    |           |
-|  Easy  | 232. Implement Queue using Stacks              | https://leetcode.com/problems/implement-queue-using-stacks/             |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-|  Easy  | 225. Implement Stack using Queues              | https://leetcode.com/problems/implement-stack-using-queues/             |   —    |   —    |   —   |  —   |   —    |           |
-| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            |   ✅    | 37.5%  |   ✅   |  —   |   —    |           |
-| Medium | 155. Min Stack                                 | https://leetcode.com/problems/min-stack/                                |   ✅    | 62.5%  |   ✅   |  —   |   ✅    |           |
-| Medium | 227. Basic Calculator II                       | https://leetcode.com/problems/basic-calculator-ii/                      |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-| Medium | 150. Evaluate Reverse Polish Notation          | https://leetcode.com/problems/evaluate-reverse-polish-notation/         |   ✅    | 25.0%  |   ✅   |  —   |   —    |           |
-|  Hard  | 224. Basic Calculator                          | https://leetcode.com/problems/basic-calculator/                         |   —    |   —    |   ✅   |  —   |   —    |           |
-| Medium | 394. Decode String                             | https://leetcode.com/problems/decode-string/                            |   —    |   —    |   —   |  ✅   |   ✅    |           |
-| Medium | 649. Dota2 Senate                              | https://leetcode.com/problems/dota2-senate/                             |   —    |   —    |   —   |  ✅   |   —    |           |
-| Medium | 735. Asteroid Collision                        | https://leetcode.com/problems/asteroid-collision/                       |   —    |   —    |   —   |  ✅   |   —    |           |
+| Level  | Name                                           | Link                                                                    | Retention |
+|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
+|  Easy  | 1047. Remove All Adjacent Duplicates In String | https://leetcode.com/problems/remove-all-adjacent-duplicates-in-string/ |           |
+| Medium | 2390. Removing Stars From a String             | https://leetcode.com/problems/removing-stars-from-a-string/             |           |
+|  Easy  | 933. Number of Recent Calls                    | https://leetcode.com/problems/number-of-recent-calls/                   |           |
+|  Easy  | 20. Valid Parentheses                          | https://leetcode.com/problems/valid-parentheses/                        |           |
+|  Easy  | 232. Implement Queue using Stacks              | https://leetcode.com/problems/implement-queue-using-stacks/             |           |
+|  Easy  | 225. Implement Stack using Queues              | https://leetcode.com/problems/implement-stack-using-queues/             |           |
+| Medium | 71. Simplify Path                              | https://leetcode.com/problems/simplify-path/                            |           |
+| Medium | 155. Min Stack                                 | https://leetcode.com/problems/min-stack/                                |           |
+| Medium | 227. Basic Calculator II                       | https://leetcode.com/problems/basic-calculator-ii/                      |           |
+| Medium | 150. Evaluate Reverse Polish Notation          | https://leetcode.com/problems/evaluate-reverse-polish-notation/         |           |
+|  Hard  | 224. Basic Calculator                          | https://leetcode.com/problems/basic-calculator/                         |           |
+| Medium | 394. Decode String                             | https://leetcode.com/problems/decode-string/                            |           |
+| Medium | 649. Dota2 Senate                              | https://leetcode.com/problems/dota2-senate/                             |           |
+| Medium | 735. Asteroid Collision                        | https://leetcode.com/problems/asteroid-collision/                       |           |
 
 # 7. Monotonic Stack
 
-| Level  | Name                               | Link                                                          | Yandex | Freq % | TP150 | LC75 | Top100 | Retention |
-|:------:|:-----------------------------------|:--------------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
-| Medium | 739. Daily Temperatures            | https://leetcode.com/problems/daily-temperatures/             |   ✅    | 25.0%  |   —   |  ✅   |   ✅    |           |
-|  Hard  | 42. Trapping Rain Water            | https://leetcode.com/problems/trapping-rain-water/            |   ✅    | 62.5%  |   ✅   |  —   |   ✅    |           |
-|  Hard  | 84. Largest Rectangle in Histogram | https://leetcode.com/problems/largest-rectangle-in-histogram/ |   —    |   —    |   —   |  —   |   ✅    |           |
-|  Easy  | 496. Next Greater Element I        | https://leetcode.com/problems/next-greater-element-i/         |   —    |   —    |   —   |  —   |   —    |           |
+| Level  | Name                               | Link                                                          | Retention |
+|:------:|:-----------------------------------|:--------------------------------------------------------------|:----------|
+| Medium | 739. Daily Temperatures            | https://leetcode.com/problems/daily-temperatures/             |           |
+|  Hard  | 42. Trapping Rain Water            | https://leetcode.com/problems/trapping-rain-water/            |           |
+|  Hard  | 84. Largest Rectangle in Histogram | https://leetcode.com/problems/largest-rectangle-in-histogram/ |           |
+|  Easy  | 496. Next Greater Element I        | https://leetcode.com/problems/next-greater-element-i/         |           |
 
 # 8. Binary Search
 
@@ -370,17 +328,17 @@ https://leetcode.com/studyplan/leetcode-75/
 
 # 9. Intervals
 
-|   Level   | Name                                                 | Link                                                                          | Yandex | Freq % | TP150 | LC75 | Top100 | Retention |
-|:---------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
-|  Medium   | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                |   ✅    | 75.0%  |   ✅   |  —   |   ✅    |           |
-|  Medium   | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                |   —    |   —    |   ✅   |  —   |   —    |           |
-|  Medium   | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |   —    |   —    |   —   |  ✅   |   —    |           |
-|  Medium   | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |   —    |   —    |   ✅   |  ✅   |   —    |           |
-|  Medium   | 986. Interval List Intersections                     | https://leetcode.com/problems/interval-list-intersections/                    |   ✅    | 62.5%  |   —   |  —   |   —    |           |
-| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |   —    |   —    |   —   |  —   |   ✅    |           |
-|  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |   —    |   —    |   —   |  —   |   —    |           |
-|  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |   —    |   —    |   —   |  —   |   —    |           |
-|  Medium   | 1229. Meeting Scheduler                              | https://leetcode.com/problems/meeting-scheduler/                              |   ✅    | 25.0%  |   —   |  —   |   —    |           |
+|   Level   | Name                                                 | Link                                                                          | Retention |
+|:---------:|:-----------------------------------------------------|:------------------------------------------------------------------------------|:----------|
+|  Medium   | 56. Merge Intervals                                  | https://leetcode.com/problems/merge-intervals/                                |           |
+|  Medium   | 57. Insert Interval                                  | https://leetcode.com/problems/insert-interval/                                |           |
+|  Medium   | 435. Non-overlapping Intervals                       | https://leetcode.com/problems/non-overlapping-intervals/                      |           |
+|  Medium   | 452. Minimum Number of Arrows to Burst Balloons      | https://leetcode.com/problems/minimum-number-of-arrows-to-burst-balloons/     |           |
+|  Medium   | 986. Interval List Intersections                     | https://leetcode.com/problems/interval-list-intersections/                    |           |
+| Medium(-) | 763. Partition Labels                                | https://leetcode.com/problems/partition-labels/                               |           |
+|  Medium   | 2406. Divide Intervals Into Minimum Number of Groups | https://leetcode.com/problems/divide-intervals-into-minimum-number-of-groups/ |           |
+|  Medium   | 1288. Remove Covered Intervals                       | https://leetcode.com/problems/remove-covered-intervals/                       |           |
+|  Medium   | 1229. Meeting Scheduler                              | https://leetcode.com/problems/meeting-scheduler/                              |           |
 
 # 10. Linked List
 
@@ -649,19 +607,15 @@ https://leetcode.com/studyplan/leetcode-75/
 
 # 26. Design / OOP
 
-| Level  | Name                                                                              | Link                                                       | Yandex | Freq % | TP150 | LC75 | Top100 | Retention |
-|:------:|:----------------------------------------------------------------------------------|:-----------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
-| Medium | 380. Insert Delete GetRandom O(1)                                                 | https://leetcode.com/problems/insert-delete-getrandom-o1/  |   ✅    | 62.5%  |   ✅   |  —   |   —    |           |
-| Medium | 281. Zigzag Iterator                                                              | https://leetcode.com/problems/zigzag-iterator/             |   ✅    | 25.0%  |   —   |  —   |   —    |           |
-| Medium | 362. Design Hit Counter                                                           | https://leetcode.com/problems/design-hit-counter/          |   ✅    | 50.0%  |   —   |  —   |   —    |           |
-|  Easy  | 1656. Design an Ordered Stream                                                    | https://leetcode.com/problems/design-an-ordered-stream/    |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-| Medium | 2241. Design an ATM Machine                                                       | https://leetcode.com/problems/design-an-atm-machine/       |   ✅    | 62.5%  |   —   |  —   |   —    |           |
-| Medium | 155. Min Stack                                                                    | https://leetcode.com/problems/min-stack/                   |   ✅    | 62.5%  |   ✅   |  —   |   ✅    |           |
-| Medium | 146. LRU Cache                                                                    | https://leetcode.com/problems/lru-cache/                   |   ✅    | 50.0%  |   ✅   |  —   |   ✅    |           |
-|  Easy  | 2629. Function Composition *(JS-задача, низкая релевантность для бэкенда)*        | https://leetcode.com/problems/function-composition/        |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-|  Easy  | 2665. Counter II *(JS-задача, низкая релевантность для бэкенда)*                  | https://leetcode.com/problems/counter-ii/                  |   ✅    | 25.0%  |   —   |  —   |   —    |           |
-|  Easy  | 2666. Allow One Function Call *(JS-задача, низкая релевантность для бэкенда)*     | https://leetcode.com/problems/allow-one-function-call/     |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-|  Easy  | 2667. Create Hello World Function *(JS-задача, низкая релевантность для бэкенда)* | https://leetcode.com/problems/create-hello-world-function/ |   ✅    | 25.0%  |   —   |  —   |   —    |           |
+| Level  | Name                              | Link                                                      | Yandex | Freq % | TP150 | LC75 | Top100 | Retention |
+|:------:|:----------------------------------|:----------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
+| Medium | 380. Insert Delete GetRandom O(1) | https://leetcode.com/problems/insert-delete-getrandom-o1/ |   ✅    | 62.5%  |   ✅   |  —   |   —    |           |
+| Medium | 281. Zigzag Iterator              | https://leetcode.com/problems/zigzag-iterator/            |   ✅    | 25.0%  |   —   |  —   |   —    |           |
+| Medium | 362. Design Hit Counter           | https://leetcode.com/problems/design-hit-counter/         |   ✅    | 50.0%  |   —   |  —   |   —    |           |
+|  Easy  | 1656. Design an Ordered Stream    | https://leetcode.com/problems/design-an-ordered-stream/   |   ✅    | 37.5%  |   —   |  —   |   —    |           |
+| Medium | 2241. Design an ATM Machine       | https://leetcode.com/problems/design-an-atm-machine/      |   ✅    | 62.5%  |   —   |  —   |   —    |           |
+| Medium | 155. Min Stack                    | https://leetcode.com/problems/min-stack/                  |   ✅    | 62.5%  |   ✅   |  —   |   ✅    |           |
+| Medium | 146. LRU Cache                    | https://leetcode.com/problems/lru-cache/                  |   ✅    | 50.0%  |   ✅   |  —   |   ✅    |           |
 
 # 27. Math / Simulation
 
