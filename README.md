@@ -209,41 +209,61 @@ https://leetcode.com/studyplan/leetcode-75/
 
 # 3. Sliding Window
 
-| Level  | Name                                                                             | Link                                                                                                      | Yandex | Freq % | TP150 | LC75 | Top100 | Retention |
-|:------:|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:------:|:------:|:-----:|:----:|:------:|:----------|
-|  Easy  | 643. Maximum Average Subarray I                                                  | https://leetcode.com/problems/maximum-average-subarray-i/                                                 |   ✅    | 25.0%  |   —   |  ✅   |   —    |           |
-| Medium | 1004. Max Consecutive Ones III                                                   | https://leetcode.com/problems/max-consecutive-ones-iii/                                                   |   ✅    | 50.0%  |   —   |  ✅   |   —    |           |
-| Medium | 1493. Longest Subarray of 1's After Deleting One Element                         | https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/                          |   ✅    | 100.0% |   —   |  ✅   |   —    |           |
-| Medium | 904. Fruit Into Baskets                                                          | https://leetcode.com/problems/fruit-into-baskets/                                                         |   —    |   —    |   —   |  —   |   —    |           |
-| Medium | 424. Longest Repeating Character Replacement                                     | https://leetcode.com/problems/longest-repeating-character-replacement/                                    |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-| Medium | 567. Permutation in String                                                       | https://leetcode.com/problems/permutation-in-string/                                                      |   ✅    | 75.0%  |   —   |  —   |   —    |           |
-| Medium | 438. Find All Anagrams in a String                                               | https://leetcode.com/problems/find-all-anagrams-in-a-string/                                              |   ✅    | 75.0%  |   —   |  —   |   ✅    |           |
-|  Hard  | 239. Sliding Window Maximum                                                      | https://leetcode.com/problems/sliding-window-maximum/                                                     |   ✅    | 37.5%  |   —   |  —   |   ✅    |           |
-| Medium | 1456. Maximum Number of Vowels in a Substring of Given Length                    | https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/                    |   —    |   —    |   —   |  ✅   |   —    |           |
-| Medium | 3. Longest Substring Without Repeating Characters                                | https://leetcode.com/problems/longest-substring-without-repeating-characters/                             |   ✅    | 87.5%  |   ✅   |  —   |   ✅    |           |
-| Medium | 340. Longest Substring with At Most K Distinct Characters                        | https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/                       |   ✅    | 50.0%  |   —   |  —   |   —    |           |
-| Medium | 2743. Count Substrings Without Repeating Character                               | https://leetcode.com/problems/count-substrings-without-repeating-character/                               |   ✅    | 50.0%  |   —   |  —   |   —    |           |
-|  Hard  | 76. Minimum Window Substring                                                     | https://leetcode.com/problems/minimum-window-substring/                                                   |   ✅    | 37.5%  |   ✅   |  —   |   ✅    |           |
-|  Easy  | 485. Max Consecutive Ones                                                        | https://leetcode.com/problems/max-consecutive-ones/                                                       |   ✅    | 37.5%  |   —   |  —   |   —    |           |
-| Medium | 209. Minimum Size Subarray Sum                                                   | https://leetcode.com/problems/minimum-size-subarray-sum/                                                  |   ✅    | 25.0%  |   ✅   |  —   |   —    |           |
-| Medium | 395. Longest Substring with At Least K Repeating Characters                      | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/                     |   ✅    | 25.0%  |   —   |  —   |   —    |           |
-| Medium | 487. Max Consecutive Ones II                                                     | https://leetcode.com/problems/max-consecutive-ones-ii/                                                    |   ✅    | 25.0%  |   —   |  —   |   —    |           |
-|  Hard  | 992. Subarrays with K Different Integers                                         | https://leetcode.com/problems/subarrays-with-k-different-integers/                                        |   ✅    | 25.0%  |   —   |  —   |   —    |           |
-| Medium | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/ |   ✅    | 25.0%  |   —   |  —   |   —    |           |
-|  Hard  | 30. Substring with Concatenation of All Words                                    | https://leetcode.com/problems/substring-with-concatenation-of-all-words/                                  |   —    |   —    |   ✅   |  —   |   —    |           |
+| Level  | Name                                                                             | Link                                                                                                      | Retention |
+|:------:|:---------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------|:----------|
+|  Easy  | 643. Maximum Average Subarray I                                                  | https://leetcode.com/problems/maximum-average-subarray-i/                                                 |           |
+| Medium | 1004. Max Consecutive Ones III                                                   | https://leetcode.com/problems/max-consecutive-ones-iii/                                                   |           |
+| Medium | 1493. Longest Subarray of 1's After Deleting One Element                         | https://leetcode.com/problems/longest-subarray-of-1s-after-deleting-one-element/                          |           |
+| Medium | 904. Fruit Into Baskets                                                          | https://leetcode.com/problems/fruit-into-baskets/                                                         |           |
+| Medium | 424. Longest Repeating Character Replacement                                     | https://leetcode.com/problems/longest-repeating-character-replacement/                                    |           |
+| Medium | 567. Permutation in String                                                       | https://leetcode.com/problems/permutation-in-string/                                                      |           |
+| Medium | 438. Find All Anagrams in a String                                               | https://leetcode.com/problems/find-all-anagrams-in-a-string/                                              |           |
+|  Hard  | 239. Sliding Window Maximum                                                      | https://leetcode.com/problems/sliding-window-maximum/                                                     |           |
+| Medium | 1456. Maximum Number of Vowels in a Substring of Given Length                    | https://leetcode.com/problems/maximum-number-of-vowels-in-a-substring-of-given-length/                    |           |
+| Medium | 3. Longest Substring Without Repeating Characters                                | https://leetcode.com/problems/longest-substring-without-repeating-characters/                             |           |
+| Medium | 340. Longest Substring with At Most K Distinct Characters                        | https://leetcode.com/problems/longest-substring-with-at-most-k-distinct-characters/                       |           |
+| Medium | 2743. Count Substrings Without Repeating Character                               | https://leetcode.com/problems/count-substrings-without-repeating-character/                               |           |
+|  Hard  | 76. Minimum Window Substring                                                     | https://leetcode.com/problems/minimum-window-substring/                                                   |           |
+|  Easy  | 485. Max Consecutive Ones                                                        | https://leetcode.com/problems/max-consecutive-ones/                                                       |           |
+| Medium | 209. Minimum Size Subarray Sum                                                   | https://leetcode.com/problems/minimum-size-subarray-sum/                                                  |           |
+| Medium | 395. Longest Substring with At Least K Repeating Characters                      | https://leetcode.com/problems/longest-substring-with-at-least-k-repeating-characters/                     |           |
+| Medium | 487. Max Consecutive Ones II                                                     | https://leetcode.com/problems/max-consecutive-ones-ii/                                                    |           |
+|  Hard  | 992. Subarrays with K Different Integers                                         | https://leetcode.com/problems/subarrays-with-k-different-integers/                                        |           |
+| Medium | 1438. Longest Continuous Subarray With Absolute Diff Less Than or Equal to Limit | https://leetcode.com/problems/longest-continuous-subarray-with-absolute-diff-less-than-or-equal-to-limit/ |           |
+|  Hard  | 30. Substring with Concatenation of All Words                                    | https://leetcode.com/problems/substring-with-concatenation-of-all-words/                                  |           |
 
 # 4. Prefix Sum
 
 | Level  | Name                              | Link                                                        | Retention |
 |:------:|:----------------------------------|:------------------------------------------------------------|:----------|
-|  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    |           |
-|  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             |           |
+|  Easy  | 1480. Running Sum of 1d Array     | https://leetcode.com/problems/running-sum-of-1d-array/      | 5         |
+|  Easy  | 1732. Find the Highest Altitude   | https://leetcode.com/problems/find-the-highest-altitude/    | 5         |
+|  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    | 5         |
+|  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             | 5         |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |           |
 | Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        |           |
 | Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             |           |
 | Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ |           |
-| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |           |
 | Medium | 523. Continuous Subarray Sum      | https://leetcode.com/problems/continuous-subarray-sum/      |           |
-|  Easy  | 1732. Find the Highest Altitude   | https://leetcode.com/problems/find-the-highest-altitude/    |           |
+
+Рекомендую такой порядок. Добавил одну подводящую задачу — 1480, чтобы начать с самого механизма накопления суммы.
+№	Level	Задача	Какая идея добавляется
+1	Easy	1480. Running Sum of 1d Array — добавлена	Построить массив накопленных сумм. Основа всей темы.
+2	Easy	1732. Find the Highest Altitude	Находить максимум среди накопленных сумм; учитывать начальное значение 0.
+3	Easy	303. Range Sum Query – Immutable	Главная формула: сумма отрезка — разность двух префиксных сумм.
+4	Easy	724. Find Pivot Index	Выражать сумму справа через общую сумму и сумму слева.
+5	Medium	238. Product of Array Except Self	Родственная техника: накопить произведения слева и справа. Здесь префиксы и суффиксы, а не суммы.
+6	Medium	560. Subarray Sum Equals K	Главный переход: Prefix Sum + HashMap. Хранить количество появлений предыдущих сумм.
+7	Medium	525. Contiguous Array	Превратить равенство количества нулей и единиц в условие на сумму; хранить первый индекс вместо количества.
+8	Medium	974. Subarray Sums Divisible by K	Сравнивать остатки префиксных сумм по модулю k; учитывать отрицательные суммы.
+9	Medium	523. Continuous Subarray Sum	Закрепить остатки, добавив ограничение на длину отрезка.
+
+
+Самый большой скачок — между 238 и 560. Чтобы сделать его плавнее, реши 560 в два этапа:
+1. Сначала через перебор отрезков и префиксные суммы за O(n²) — как учебную версию.
+2. Затем через HashMap за O(n) — для прохождения ограничений.
+   Так станет понятно, какую именно работу перебора заменяет карта, а не только как запомнить готовый шаблон.
+
 
 # 5. Hash Map
 
