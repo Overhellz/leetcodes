@@ -41,10 +41,10 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Easy  | 896. Monotonic Array                                              | https://leetcode.com/problems/monotonic-array/                                             | 5         |
 |  Easy  | 674. Longest Continuous Increasing Subsequence                    | https://leetcode.com/problems/longest-continuous-increasing-subsequence/                   | 5         |
 |  Easy  | 3105. Longest Strictly Increasing or Strictly Decreasing Subarray | https://leetcode.com/problems/longest-strictly-increasing-or-strictly-decreasing-subarray/ | 5         |
-|  Easy  | 228. Summary Ranges                                               | https://leetcode.com/problems/summary-ranges/                                              | .         |
+|  Easy  | 228. Summary Ranges                                               | https://leetcode.com/problems/summary-ranges/                                              | 3         |
 | Medium | 122. Best Time to Buy and Sell Stock II                           | https://leetcode.com/problems/best-time-to-buy-and-sell-stock-ii/                          | 3         |
 | Medium | 334. Increasing Triplet Subsequence                               | https://leetcode.com/problems/increasing-triplet-subsequence/                              | 4         |
-|  Hard  | 135. Candy                                                        | https://leetcode.com/problems/candy/                                                       |           |
+|  Hard  | 135. Candy                                                        | https://leetcode.com/problems/candy/                                                       | .         |
 |  Easy  | 1768. Merge Strings Alternately                                   | https://leetcode.com/problems/merge-strings-alternately/                                   |           |
 |  Easy  | 1071. Greatest Common Divisor of Strings                          | https://leetcode.com/problems/greatest-common-divisor-of-strings/                          |           |
 |  Easy  | 345. Reverse Vowels of a String                                   | https://leetcode.com/problems/reverse-vowels-of-a-string/                                  |           |
@@ -77,8 +77,6 @@ https://leetcode.com/studyplan/leetcode-75/
 
 БЛОК 2. Монотонные участки, серии, подъёмы и спуски
 Логика: сравнение с соседом, текущая серия + лучшая.
-
-228. Summary Ranges (Easy) – запомнить начало серии, дойти до конца, записать отрезок.
 
 135. Candy (Hard) – два прохода (слева и справа), во втором max.
 
@@ -156,7 +154,9 @@ https://leetcode.com/studyplan/leetcode-75/
 | Level  | Name                                           | Link                                                                    | Retention |
 |:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
 |  Easy  | 344. Reverse String                            | https://leetcode.com/problems/reverse-string/                           | 5         |
-|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                |           |
+|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                | 5-        |
+|  Easy  | 26. Remove Duplicates from Sorted Array        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/      |           |
+|  Easy  | 27. Remove Element                             | https://leetcode.com/problems/remove-element/                           |           |
 |  Easy  | 283. Move Zeroes                               | https://leetcode.com/problems/move-zeroes/                              |           |
 | Medium | 1679. Max Number of K-Sum Pairs                | https://leetcode.com/problems/max-number-of-k-sum-pairs/                |           |
 |  Easy  | 844. Backspace String Compare                  | https://leetcode.com/problems/backspace-string-compare/                 |           |
@@ -169,16 +169,10 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Easy  | 392. Is Subsequence                            | https://leetcode.com/problems/is-subsequence/                           |           |
 |  Hard  | 42. Trapping Rain Water                        | https://leetcode.com/problems/trapping-rain-water/                      |           |
 | Medium | 11. Container With Most Water                  | https://leetcode.com/problems/container-with-most-water/                |           |
-|  Easy  | 27. Remove Element                             | https://leetcode.com/problems/remove-element/                           |           |
-|  Easy  | 26. Remove Duplicates from Sorted Array        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/      |           |
 | Medium | 1868. Product of Two Run-Length Encoded Arrays | https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/ |           |
 | Medium | 167. Two Sum II - Input Array Is Sorted        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/         |           |
 |  Easy  | 2570. Merge Two 2D Arrays by Summing Values    | https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/    |           |
 | Medium | 15. 3Sum                                       | https://leetcode.com/problems/3sum/                                     |           |
-
-БЛОК 1. Разворот и сборка с конца
-
-977. Squares of a Sorted Array (Easy) ★
 
 БЛОК 2. Чтение/запись (in-place)
 
