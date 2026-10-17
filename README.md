@@ -151,42 +151,30 @@ https://leetcode.com/studyplan/leetcode-75/
 
 # 2. Two Pointers
 
-| Level  | Name                                           | Link                                                                    | Retention |
-|:------:|:-----------------------------------------------|:------------------------------------------------------------------------|:----------|
-|  Easy  | 344. Reverse String                            | https://leetcode.com/problems/reverse-string/                           | 5         |
-|  Easy  | 977. Squares of a Sorted Array                 | https://leetcode.com/problems/squares-of-a-sorted-array/                | 5-        |
-|  Easy  | 26. Remove Duplicates from Sorted Array        | https://leetcode.com/problems/remove-duplicates-from-sorted-array/      |           |
-|  Easy  | 27. Remove Element                             | https://leetcode.com/problems/remove-element/                           |           |
-|  Easy  | 283. Move Zeroes                               | https://leetcode.com/problems/move-zeroes/                              |           |
-| Medium | 1679. Max Number of K-Sum Pairs                | https://leetcode.com/problems/max-number-of-k-sum-pairs/                |           |
-|  Easy  | 844. Backspace String Compare                  | https://leetcode.com/problems/backspace-string-compare/                 |           |
-| Medium | 18. 4Sum                                       | https://leetcode.com/problems/4sum/                                     |           |
-| Medium | 658. Find K Closest Elements                   | https://leetcode.com/problems/find-k-closest-elements/                  |           |
-|  Easy  | 125. Valid Palindrome                          | https://leetcode.com/problems/valid-palindrome/                         |           |
-|  Easy  | 680. Valid Palindrome II                       | https://leetcode.com/problems/valid-palindrome-ii/                      |           |
-| Medium | 5. Longest Palindromic Substring               | https://leetcode.com/problems/longest-palindromic-substring/            |           |
-|  Easy  | 88. Merge Sorted Array                         | https://leetcode.com/problems/merge-sorted-array/                       |           |
-|  Easy  | 392. Is Subsequence                            | https://leetcode.com/problems/is-subsequence/                           |           |
-|  Hard  | 42. Trapping Rain Water                        | https://leetcode.com/problems/trapping-rain-water/                      |           |
-| Medium | 11. Container With Most Water                  | https://leetcode.com/problems/container-with-most-water/                |           |
-| Medium | 1868. Product of Two Run-Length Encoded Arrays | https://leetcode.com/problems/product-of-two-run-length-encoded-arrays/ |           |
-| Medium | 167. Two Sum II - Input Array Is Sorted        | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/         |           |
-|  Easy  | 2570. Merge Two 2D Arrays by Summing Values    | https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/    |           |
-| Medium | 15. 3Sum                                       | https://leetcode.com/problems/3sum/                                     |           |
-
-БЛОК 2. Чтение/запись (in-place)
-
-26. Remove Duplicates from Sorted Array (Easy)
-27. Remove Element (Easy)
-283. Move Zeroes (Easy)
+| Level  | Name                                        | Link                                                                 | Retention |
+|:------:|:--------------------------------------------|:---------------------------------------------------------------------|:----------|
+|  Easy  | 344. Reverse String                         | https://leetcode.com/problems/reverse-string/                        | 5         |
+|  Easy  | 977. Squares of a Sorted Array              | https://leetcode.com/problems/squares-of-a-sorted-array/             | 5-        |
+|  Easy  | 26. Remove Duplicates from Sorted Array     | https://leetcode.com/problems/remove-duplicates-from-sorted-array/   | 4         |
+|  Easy  | 27. Remove Element                          | https://leetcode.com/problems/remove-element/                        | 5         |
+|  Easy  | 283. Move Zeroes                            | https://leetcode.com/problems/move-zeroes/                           | 5         |
+|  Easy  | 392. Is Subsequence                         | https://leetcode.com/problems/is-subsequence/                        | 4         |
+|  Easy  | 88. Merge Sorted Array                      | https://leetcode.com/problems/merge-sorted-array/                    | 5         |
+|  Easy  | 2570. Merge Two 2D Arrays by Summing Values | https://leetcode.com/problems/merge-two-2d-arrays-by-summing-values/ |           |
+| Medium | 1679. Max Number of K-Sum Pairs             | https://leetcode.com/problems/max-number-of-k-sum-pairs/             |           |
+| Medium | 18. 4Sum                                    | https://leetcode.com/problems/4sum/                                  |           |
+| Medium | 658. Find K Closest Elements                | https://leetcode.com/problems/find-k-closest-elements/               |           |
+|  Easy  | 125. Valid Palindrome                       | https://leetcode.com/problems/valid-palindrome/                      |           |
+|  Easy  | 680. Valid Palindrome II                    | https://leetcode.com/problems/valid-palindrome-ii/                   |           |
+| Medium | 5. Longest Palindromic Substring            | https://leetcode.com/problems/longest-palindromic-substring/         |           |
+|  Hard  | 42. Trapping Rain Water                     | https://leetcode.com/problems/trapping-rain-water/                   |           |
+| Medium | 11. Container With Most Water               | https://leetcode.com/problems/container-with-most-water/             |           |
+| Medium | 167. Two Sum II - Input Array Is Sorted     | https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/      |           |
+| Medium | 15. 3Sum                                    | https://leetcode.com/problems/3sum/                                  |           |
 
 БЛОК 3. Две последовательности
 
-392. Is Subsequence (Easy)
-88. Merge Sorted Array (Easy)
 2570. Merge Two 2D Arrays by Summing Values (Easy)
-844. Backspace String Compare (Easy)
-1868. Product of Two RLE Arrays (Medium, Premium → 986)
 
 БЛОК 4. Палиндромы
 
@@ -240,30 +228,17 @@ https://leetcode.com/studyplan/leetcode-75/
 |  Easy  | 1732. Find the Highest Altitude   | https://leetcode.com/problems/find-the-highest-altitude/    | 5         |
 |  Easy  | 303. Range Sum Query - Immutable  | https://leetcode.com/problems/range-sum-query-immutable/    | 5         |
 |  Easy  | 724. Find Pivot Index             | https://leetcode.com/problems/find-pivot-index/             | 5         |
-| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ |           |
-| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        |           |
-| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             |           |
+| Medium | 238. Product of Array Except Self | https://leetcode.com/problems/product-of-array-except-self/ | 2+        |
+| Medium | 560. Subarray Sum Equals K        | https://leetcode.com/problems/subarray-sum-equals-k/        | 3-        |
+| Medium | 525. Contiguous Array             | https://leetcode.com/problems/contiguous-array/             | 3         |
 | Medium | 974. Subarray Sums Divisible by K | https://leetcode.com/problems/subarray-sums-divisible-by-k/ |           |
 | Medium | 523. Continuous Subarray Sum      | https://leetcode.com/problems/continuous-subarray-sum/      |           |
 
-Рекомендую такой порядок. Добавил одну подводящую задачу — 1480, чтобы начать с самого механизма накопления суммы.
-№	Level	Задача	Какая идея добавляется
-1	Easy	1480. Running Sum of 1d Array — добавлена	Построить массив накопленных сумм. Основа всей темы.
-2	Easy	1732. Find the Highest Altitude	Находить максимум среди накопленных сумм; учитывать начальное значение 0.
-3	Easy	303. Range Sum Query – Immutable	Главная формула: сумма отрезка — разность двух префиксных сумм.
-4	Easy	724. Find Pivot Index	Выражать сумму справа через общую сумму и сумму слева.
-5	Medium	238. Product of Array Except Self	Родственная техника: накопить произведения слева и справа. Здесь префиксы и суффиксы, а не суммы.
-6	Medium	560. Subarray Sum Equals K	Главный переход: Prefix Sum + HashMap. Хранить количество появлений предыдущих сумм.
-7	Medium	525. Contiguous Array	Превратить равенство количества нулей и единиц в условие на сумму; хранить первый индекс вместо количества.
-8	Medium	974. Subarray Sums Divisible by K	Сравнивать остатки префиксных сумм по модулю k; учитывать отрицательные суммы.
-9	Medium	523. Continuous Subarray Sum	Закрепить остатки, добавив ограничение на длину отрезка.
+№ Level Задача Какая идея добавляется
 
-
-Самый большой скачок — между 238 и 560. Чтобы сделать его плавнее, реши 560 в два этапа:
-1. Сначала через перебор отрезков и префиксные суммы за O(n²) — как учебную версию.
-2. Затем через HashMap за O(n) — для прохождения ограничений.
-   Так станет понятно, какую именно работу перебора заменяет карта, а не только как запомнить готовый шаблон.
-
+8 Medium 974. Subarray Sums Divisible by K Сравнивать остатки префиксных сумм по модулю k; учитывать отрицательные
+суммы.
+9 Medium 523. Continuous Subarray Sum Закрепить остатки, добавив ограничение на длину отрезка.
 
 # 5. Hash Map
 
@@ -312,6 +287,7 @@ https://leetcode.com/studyplan/leetcode-75/
 | Medium | 394. Decode String                             | https://leetcode.com/problems/decode-string/                            |           |
 | Medium | 649. Dota2 Senate                              | https://leetcode.com/problems/dota2-senate/                             |           |
 | Medium | 735. Asteroid Collision                        | https://leetcode.com/problems/asteroid-collision/                       |           |
+|  Easy  | 844. Backspace String Compare                  | https://leetcode.com/problems/backspace-string-compare/                 |           |
 
 # 7. Monotonic Stack
 
